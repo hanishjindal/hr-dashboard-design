@@ -23,10 +23,10 @@ const RecentAssessments = () => {
                   <h4>{item.name}</h4>
 
                   <span>
-                    <LuClipboardList size={18} color="blue" />
+                    <LuClipboardList size={18} color="rgba(77, 128, 244, 1)" />
                     {item?.totalAttended === 0 &&
                       item?.totalShortlisted === 0 && (
-                        <FiEdit size={18} color="blue" />
+                        <FiEdit size={18} color="rgba(77, 128, 244, 1)" />
                       )}
                     {!item?.totalAssigned && (
                       <RiDeleteBinLine size={20} color="red" />

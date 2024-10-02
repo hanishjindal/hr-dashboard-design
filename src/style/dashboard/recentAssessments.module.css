@@ -10,7 +10,7 @@
 }
 
 .heading span {
-    color: blue;
+    color: rgba(77, 128, 244, 1);
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
