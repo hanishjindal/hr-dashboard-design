@@ -6,13 +6,18 @@
     padding: 0 20px;
 }
 
-.filter>div {
+.filterItem {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.filter>div>div {
+.filterItem>h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.checkbox {
     display: flex;
     align-items: center;
     gap: 8px;

@@ -7,12 +7,12 @@ const Checkbox = () => {
     <div className={style.filter}>
       {FILTER_DATA?.map((item, index) => {
         return (
-          <div key={index}>
+          <div className={style.filterItem} key={index}>
             <h4>{item.category}</h4>
 
             {item?.options?.map((options, idx) => {
               return (
-                <div key={idx}>
+                <div className={style.checkbox} key={idx}>
                   <input type="checkbox" name={options} id={options} />
                   <label htmlFor={options}>{options}</label>
                 </div>
