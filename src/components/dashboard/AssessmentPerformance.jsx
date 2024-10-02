@@ -15,8 +15,6 @@ const AssessmentPerformance = () => {
           {ASSESSMENT_PERFORMANCE_DATA?.chart?.map((item, index) => {
             return (
               <div key={index} className={style.barChart}>
-                <span>{item.value}</span>
-
                 <div>
                   <div
                     style={{

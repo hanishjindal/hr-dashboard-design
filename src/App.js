@@ -7,7 +7,7 @@ function App() {
     <div>
       <Dashboard />
 
-      <hr />
+      <hr style={{ minWidth: "1200px" }} />
 
       <JobSection />
     </div>
