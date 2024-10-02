@@ -1,0 +1,17 @@
+.container {
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container>div {
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row3 {
+    width: 40% !important;
+}

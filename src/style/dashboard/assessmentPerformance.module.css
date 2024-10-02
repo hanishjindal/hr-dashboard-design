@@ -1,0 +1,43 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart {
+    display: flex;
+    align-items: end;
+    padding: 0 20px;
+}
+
+.barChart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.barChart>div {
+    display: flex;
+    align-items: end;
+    gap: 8px;
+}
+
+.barChart>div>div {
+    width: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.barChart span {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    width: 90px;
+}

@@ -1,0 +1,20 @@
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search span {
+    position: absolute;
+    left: 10px;
+}
+
+.search input {
+    padding: 7px;
+    padding-left: 25px;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    color: gray;
+}

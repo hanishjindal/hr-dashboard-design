@@ -1,0 +1,74 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading span {
+    color: blue;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name>h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.name>span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.name>span svg {
+    cursor: pointer;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status>div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.status>div>span {
+    font-size: 12px;
+}
+
+.status>div:first-child>span:last-child {
+    color: gray;
+}
+
+.textGreen {
+    color: green;
+}

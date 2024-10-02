@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card p {
+    color: gray;
+    font-size: 14px;
+}
+
+.visualData {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.graph {
+    margin-top: -10px;
+    width: 80px;
+    height: 40px;
+}
+
+.largeGraph {
+    width: 100%;
+    height: 250px;
+}
